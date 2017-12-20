@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Robotom';
+  src: url('Roboto/Roboto-Medium.ttf');
+ 
+
+}
+@font-face{
+	  font-family: 'Roboto';
+  src: url('Roboto/Roboto-Light.ttf');
+}
+
+
+/*div{
+	font-family: 'Robotom';
+	color:red;
+	font-size: 2em;
+}
+p{
+	font-family: 'Roboto';
+	color:blue;
+	font-size: 3em;
+}*/

@@ -1,0 +1,289 @@
+/*#233d58; azul
+#29abe2 azul claro;
+#AFAEAE gris claro
+*/
+
+body{
+	font-size: 16px;
+	font-family: 'Roboto', Arial;
+	background: purple ;
+	position: relative;
+}
+header{
+	width: 100%;
+	height: 35px;
+	background: #233d58;
+	position: relative;
+}
+header h1{
+	display: none;
+}
+
+header nav .ioMenuMovil{
+	height: 25px;
+	width: 120px;
+	cursor: pointer;
+	line-height: 40px;
+	margin:0px 0px 0px 10px;
+	padding-top:5px;
+	
+}
+header nav .ioMenuMovil img{
+	height: 100%;
+	
+}
+header nav #card_menu{
+	display: none;
+	position: relative;
+	width: 230px;
+	
+	background: white;
+	top:-30px;
+	left: 0px;
+	border-right: 3px solid #AFAEAE;
+	z-index: 999;
+	padding-bottom: 50px;
+
+}
+
+header nav #card_menu #logo_menu{
+
+	height: 200px;
+	width: 80%;
+	margin: 30px 0px;
+	margin-left: 10%;
+	margin-bottom: 50px;
+
+}
+header nav #card_menu #logo_menu img{
+	width: 100%;
+}
+header nav #card_menu ul{
+
+	margin-top: -50px;
+}
+header nav #card_menu ul li{
+	
+	list-style: none;
+	font-size: 1.5em;
+	line-height: 37px;
+}
+header nav #card_menu ul li a{
+	text-decoration: none;
+	color: black;
+
+
+}
+
+
+header #prev_section,
+header #next_section{
+	width:25px;
+	height: 25px;
+	/*background: blue;
+	overflow: hidden;*/
+	cursor: pointer;
+	margin: 5px;
+	position: absolute;
+	top:0px;
+}
+header #prev_section{
+	right:90px;
+}
+header #next_section{
+	right: 50px;
+}
+
+header #prev_section img,
+header #next_section img{
+	width:50%;
+	position:relative;
+	top: 3px;
+	left:7px;
+
+}
+header #next_section img{
+	transform: rotate(180deg);
+}
+
+
+
+
+
+@media screen and (min-width:480px){
+	body{
+		background: red;
+	}
+}
+
+@media screen and (min-width:600px){
+	body{
+		background: orange;
+	}	
+}
+
+@media screen and (min-width:767px){
+	body{
+		background: yellow;
+	}
+
+	header{
+		height: 50px;
+	}
+	header h1{
+		display:inline-block;
+		width: 20%;
+		
+		margin: 0px;
+		height: 50px;
+		margin-left: 80px;
+		line-height: 50px;
+		min-width: 200px;
+
+	}
+	header h1 > *{
+		display: inline-block;
+		vertical-align: middle;
+		text-decoration: none;
+		color: white;
+		font-size: 0.6em;
+		margin-left: 0px 3px;
+	}
+	header h1 figure{
+		height: 40px;
+		width: 40px;
+		margin:0px;
+		
+	}
+	header h1 figure img{
+		width: 100%;
+	}
+
+	header nav {
+		display:inline-block;
+		vertical-align: middle;
+		width: 62%;
+		position: relative;
+
+	}
+	header nav #showMenu,
+	header nav #hideMenu
+	
+	{
+		display:none;
+	}
+	header nav #card_menu{
+
+		display: inline-block;
+		border: none;
+		background: none;
+		position: relative;
+		top:0px;
+		width: 100%;
+		
+		text-align: right;
+		padding: 0px;
+	}
+	header nav #card_menu figure{
+		display:none;
+	}
+	header nav #card_menu ul {
+		margin: 0px;
+		margin-top: -15px;
+		padding: 0px;
+	}
+	header nav #card_menu ul li{
+		display: inline-block;
+		font-size: 1em;
+		width: 75px;
+		
+		text-align: center;
+		margin: 0px -2px;
+
+	}
+	header nav #card_menu ul li a{
+		color: white;
+	}
+
+
+
+
+
+
+
+
+
+
+
+	header #prev_section,
+	header #next_section {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		background: #29abe2;
+		right: 40px;
+		z-index: 999;
+		border-radius: 50%
+	}
+	header #prev_section {
+		top:115px;
+	}
+	header #next_section {
+		top:190px;
+
+	}
+	header #prev_section img,
+	header #next_section img{
+		width: 30%;
+		left:18px;
+		top:13px;
+
+
+	}
+	
+
+
+}
+
+
+#slider{
+	width:100%;
+	position:relative;
+	height: 800px;
+	background: black;
+}
+#slider section.slide{
+	position: absolute;
+	width: 100%;
+	top:0px;
+	left: 0px;
+	background: red;
+
+}
+#slider #home{
+	height: 500px;
+	background: orange;
+}
+#slider #aboutme{
+	height: 400px;
+	background: yellow;
+}
+#slider #skills{
+	height: 300px;
+	background: red;
+}
+#slider #portafolio{
+	height: 200px;
+	background: blue;
+}
+#slider #blog{
+	height: 100px;
+	background: purple;
+}
+
+
+@media screen and (min-width:950px){
+	body{
+		background: green;
+	}
+}
